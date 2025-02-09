@@ -3,10 +3,11 @@ import Navbar from './Navbar'
 import { motion } from "motion/react";
 import Button from './Button';
 import SecondButton from './SecondButton';
+import { assets } from '../assets/assets';
 
 function Header() {
   return (
-    <div className='min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden' style={{backgroundImage: `url('/src/header_image.jpg')`}} id='Header'>
+    <div className='min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden' style={{backgroundImage: `url(${assets.header_image})`}} id='Header'>
         <Navbar/>
         <motion.div 
         initial={{opacity: 0, y: 100}}

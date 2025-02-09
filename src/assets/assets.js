@@ -5,6 +5,7 @@ import logo_white from "./logo_white.png";
 import menu_icon from "./menu_icon.svg";
 import cross_icon from "./cross_icon.svg";
 import about_image from "./about_image.png";
+import header_image from "./header_image.jpg";
 import project_image_1 from "./project_image_1.jpg";
 import project_image_2 from "./project_image_2.jpg";
 import project_image_3 from "./project_image_3.jpg";
@@ -28,6 +29,7 @@ export const assets = {
   menu_icon,
   cross_icon,
   about_image,
+  header_image,
   profile_image_1,
   profile_image_2,
   profile_image_3,
