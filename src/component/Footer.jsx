@@ -39,9 +39,7 @@ function Footer() {
           <div className="w-full md:w-1/3 mb-8 md:mb-0">
             <img className='mx-auto md:m-0 w-28' src={assets.logo_panjang_putih} alt="" />
             <p className="text-gray-400 mt-4">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
-              deserunt vero, recusandae assumenda a voluptatem voluptate fugit
-              porro nemo.
+              CharmBox adalah penyedia hampers dan gift box premium yang berdedikasi untuk memberikan kehangatan dan kebahagiaan di setiap momen penting Anda.
             </p>
           </div>
           <div className="w-full md:w-1/5 mb-8 md:mb-0 ">
@@ -54,7 +52,7 @@ function Footer() {
                 About
               </a>
               <a className="hover:text-white" href="#Project">
-                Project
+                Hampers
               </a>
               <a className="hover:text-white" href="#Testimonials">
                 Testimonials

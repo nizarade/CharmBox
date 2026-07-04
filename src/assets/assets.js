@@ -48,39 +48,39 @@ export const assets = {
 
 export const projectsData = [
   {
-    title: "Skyline Haven",
-    price: "$2,50,000",
-    location: "California",
+    title: "Sweet Blossom Box",
+    price: "Rp 150.000",
+    location: "Ready Stock",
     image: project_image_1,
   },
   {
-    title: "Vista Verde",
-    price: "$2,50,000",
-    location: "San Francisco",
+    title: "Rustic Celebration Gift",
+    price: "Rp 275.000",
+    location: "Custom Gift",
     image: project_image_2,
   },
   {
-    title: "Serenity Suites",
-    price: "$2,50,000",
-    location: "Chicago",
+    title: "Gourmet Delight Hamper",
+    price: "Rp 450.000",
+    location: "Pre-Order",
     image: project_image_3,
   },
   {
-    title: "Central Square",
-    price: "$2,50,000",
-    location: "Los Angeles",
+    title: "Elegant Birthday Box",
+    price: "Rp 320.000",
+    location: "Ready Stock",
     image: project_image_4,
   },
   {
-    title: "Vista Verde",
-    price: "$2,50,000",
-    location: "San Francisco",
+    title: "Corporate Executive Gift",
+    price: "Rp 500.000",
+    location: "Pre-Order",
     image: project_image_5,
   },
   {
-    title: "Serenity Suites",
-    price: "$2,50,000",
-    location: "Chicago",
+    title: "Luxury Wedding Hampers",
+    price: "Rp 750.000",
+    location: "Custom Gift",
     image: project_image_6,
   },
 ];
@@ -92,7 +92,7 @@ export const projectsData = [
         image: profile_image_1,
         alt: "Portrait of Donald Jackman",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "Hampers dari CharmBox bener-bener premium! Desain box-nya elegan banget dan isi produknya berkualitas tinggi. Sangat recommended buat kado korporat."
     },
     {
         name: "Richard Nelson",
@@ -100,7 +100,7 @@ export const projectsData = [
         image: profile_image_2,
         alt: "Portrait of Richard Nelson",
         rating: 4,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "Puas banget beli custom gift box di sini. Adminnya super sabar bantu milih isi box yang pas dengan budget saya. Pengirimannya juga cepat dan aman!"
     },
     {
         name: "James Washington",
@@ -108,6 +108,6 @@ export const projectsData = [
         image: profile_image_3,
         alt: "Portrait of James Washington",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "Kado wisuda buat temen-temen kemarin beli di sini semua, responnya cepat dan packaging-nya estetik banget. Temen-temen pada suka dan nanya beli di mana."
     }
 ];

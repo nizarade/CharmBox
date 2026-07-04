@@ -1,69 +1,60 @@
-<div align="center">
-  <h1>CharmBox Portfolio ✨</h1>
-  <p>
-    <strong>Wanna see some magic? Check out this portfolio, built with React & Vite. It's not just code, it's a whole vibe.</strong>
-  </p>
+<img width="1854" height="842" alt="ss_charmbox" src="https://github.com/user-attachments/assets/45440dd6-68ae-4afb-95a1-5ee97f26a7d8" />
 
-</div>
-
----
-
-### 🤔 **What's the tea on CharmBox?**
-
-**CharmBox** is basically a portfolio that's got the drip. It’s built to show off cool projects and what we're all about in a way that's totally *not* basic. We're talking clean design, smooth animations, and a user experience that's just *chef's kiss*.
+# CharmBox
+**Live Preview : https://charm-box.vercel.app/**
 
 
+CharmBox adalah platform web landing page sederhana untuk penyedia hampers dan gift box premium. Proyek ini dikembangkan sebagai sarana pembelajaran React dan Tailwind CSS guna menyajikan katalog hampers secara bersih, estetik, dan interaktif bagi para pengunjung.
 
-### 🤙 Fitur Keren
+Tampilan antarmuka didesain secara clean, modern, dan responsif menggunakan Tailwind CSS serta font Outfit yang estetik. Proyek ini juga dilengkapi animasi transisi halus dari Framer Motion untuk memberikan pengalaman navigasi pengguna yang lebih dinamis.
 
--   🎨 **Project Showcase**: A whole gallery to flex our best work. Visuals on point, obviously.
--   📜 **The Backstory**: Get to know us. We spill the tea on our journey and what makes us tick in the "About Us" section.
--   💬 **Testimonial Sliders**: See what the real ones are saying. No cap, just good vibes from our clients.
--   ⚡ **Ngebut Parah**: Built with **Vite**, so this thing loads faster than you can say "yeet".
--   📱 **Tampilan Kece di Mana Aja**: Responsive design pake **Tailwind CSS**, so it looks good on your phone, laptop, whatever.
--   ✨ **Kode Rapi**: We keep our code clean with **ESLint**. No mess, no stress.
+## Fitur Utama
 
-### 💻 Spill Teknologi
+- **Hero Section Menarik**: Header dengan latar gambar premium dan tagline *"Explore Hampers that fit your Dreams"* sebagai impresi awal bagi pengunjung.
+- **About Us & Statistik**: Bagian penjelasan profil singkat brand beserta statistik pencapaian layanan.
+- **Slider Katalog Hampers**: Galeri interaktif menampilkan ragam pilihan paket hampers (seperti *Sweet Blossom Box*, *Rustic Celebration Gift*, dll.) lengkap dengan harga, kategori, dan tombol navigasi kiri-kanan.
+- **Testimoni Pelanggan**: Kolom ulasan dari pelanggan dengan tampilan kartu melingkar (*circular card*) untuk membangun kepercayaan pengunjung.
+- **Form Kontak Terintegrasi**: Fitur kirim pesan yang terhubung langsung menggunakan layanan Web3Forms tanpa memerlukan konfigurasi server/backend tambahan.
+- **Newsletter Subscription**: Form berlangganan di bagian footer untuk menyimulasikan sistem pembaruan informasi berkala kepada pengguna.
 
-This is the tech that makes the magic happen:
+## Teknologi yang Dipakai
 
-| Teknologi                                                                                                             | Gunanya Buat Apa?                         |
-| --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
-| **React 18**      | Bikin tampilannya jadi *slay*.            |
-| **Vite**              | Biar proses *development* jadi ngebut.    |
-| **Tailwind CSS** | Bikin *styling* jadi gampang dan *aesthetic*. |
-| **Framer Motion**     | Bikin animasinya jadi *smooth af*.        |
-| **ESLint**            | Jaga-jaga biar kodenya gak berantakan.    |
+Proyek ini dikembangkan menggunakan kombinasi teknologi berikut:
 
-### 🚀 Cara Nyalain
+- **React 18** sebagai pustaka (library) utama untuk membangun antarmuka pengguna yang modular.
+- **Vite** sebagai build tool modern untuk menunjang kecepatan proses development.
+- **Tailwind CSS** untuk mempermudah penyusunan layout yang responsif dan konsisten.
+- **Motion (Framer Motion)** untuk mengimplementasikan animasi transisi elemen yang halus.
+- **React Toastify** untuk menampilkan notifikasi umpan balik (toast) setelah pengisian form kontak.
+- **Web3Forms** untuk memproses pengiriman form langsung menuju email tujuan secara praktis.
 
-Mau coba jalanin di laptop lo? Gampang banget, *no cap*:
+## Cara Menjalankan Project di Lokal
 
-1.  **Clone Reponya**
-    ```bash
-    git clone [https://github.com/nizarade/charmbox.git](https://github.com/nizarade/charmbox.git)
-    cd CharmBox
-    ```
+Jika Anda ingin menjalankan proyek ini di lingkungan lokal Anda, ikuti langkah-langkah di bawah ini:
 
-2.  **Install Dulu**
-    ```bash
-    npm install
-    ```
+1. Clone repository ini ke komputer Anda:
+   ```bash
+   git clone https://github.com/nizarade/CharmBox.git
+   ```
 
-3.  **Jalanin Servernya**
-    ```bash
-    npm run dev
-    ```
-    Langsung buka `http://localhost:5173` di browser lo. *Easy peasy*.
+2. Masuk ke folder proyek:
+   ```bash
+   cd CharmBox
+   ```
 
-### 💖 Join The Squad
+3. Install seluruh dependensi yang diperlukan:
+   ```bash
+   npm install
+   ```
 
-Punya ide biar CharmBox makin kece? *Bet!* Langsung aja:
+4. Jalankan server local development:
+   ```bash
+   npm run dev
+   ```
 
-1.  *Fork* repo ini.
-2.  Bikin *branch* baru (`git checkout -b fitur/IdeGila`).
-3.  *Commit* perubahan lo (`git commit -m 'Nambahin FiturGila'`).
-4.  *Push* ke *branch* (`git push origin fitur/IdeGila`).
-5.  Bikin *Pull Request*.
+Setelah server aktif, buka browser Anda dan akses alamat localhost yang tertera di terminal (biasanya http://localhost:5173).
 
-Ditunggu kontribusinya, ya! Let's make something awesome together. 🤘
+5. Membuat build production (opsional):
+   ```bash
+   npm run build
+   ```

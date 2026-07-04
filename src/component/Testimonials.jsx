@@ -17,7 +17,7 @@ function Testimonials() {
         <TitleComponent
           title="Customer "
           titleSpan="Testimonials"
-          description="Real Stories from Those Who Found Home with Us"
+          description="Kisah Nyata dari Mereka yang Berbagi Kebahagiaan Bersama Kami"
         />
       </div>
       <div className="flex flex-wrap justify-center gap-8">

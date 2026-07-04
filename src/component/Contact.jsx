@@ -44,7 +44,7 @@ function Contact() {
         <TitleComponent
           title="Contact "
           titleSpan="With Us"
-          description="Ready to Make a Move? Let’s Build Your Future Together"
+          description="Ada Pertanyaan atau Mau Custom Hampers? Hubungi Kami Sekarang!"
         />
       </div>
 

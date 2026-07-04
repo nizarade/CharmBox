@@ -15,9 +15,9 @@ function Projects() {
     >
       <div className="flex flex-col items-center justify-center">
         <TitleComponent
-          title="Projects "
-          titleSpan="Completed"
-          description="Crafting Spaces, Building Legacies—Explore Our Portfolio"
+          title="Our Premium "
+          titleSpan="Hampers"
+          description="Pilihan Hampers & Gift Box Terbaik untuk Momen Istimewamu"
         />
       </div>
 
