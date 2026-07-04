@@ -1,4 +1,5 @@
-<img width="1854" height="842" alt="ss_charmbox" src="https://github.com/user-attachments/assets/45440dd6-68ae-4afb-95a1-5ee97f26a7d8" />
+<img width="1834" height="882" alt="ss_charmbox" src="https://github.com/user-attachments/assets/85b9358c-dc70-47e2-a4b3-abebf649f72e" />
+
 
 # CharmBox
 **Live Preview : https://charm-box.vercel.app/**
